@@ -1,0 +1,122 @@
+css
+
+
+	html {
+		height: 100%;
+	}
+	body {
+		margin: 0;
+		background-color: white;
+		height: 100em;
+		width: 100%;
+		overflow-x: hidden;
+		
+	}
+		.nav-wrapper {
+			position: fixed;
+			margin: 0;
+			padding: 0;
+			top: 0%;
+			width: 100%;
+			height: 3em;
+			background-color: salmon;
+			box-shadow: 0em 0.5em 0.5em rgba(0,0,0,0.25);		/* transparency */
+		}
+			.tee-logo {
+				position: absolute;
+				left: 10%;
+				top: 5%;
+				color: white;
+				text-decoration: none;
+				font-family: verdana;
+				font-weight: bold;
+				font-size: 2em;
+			}
+			ul.nav-options {
+				position: absolute;
+				height: 100%;
+				left:65%;
+				padding: 0;
+				margin: 0;
+				font-family: verdana;
+				list-style-type: none;
+				overflow: hidden;
+			}
+				ul.nav-options li {
+					float: right;
+					max-height: 100%;
+					max-width: 65%;
+					transition: 0.4s;
+
+				}
+				ul.nav-options li  a {
+					display: block;
+					color: white;
+					text-align: center;
+					text-decoration: none;
+					font-size: 1em;
+					padding: 0.8em;
+				}
+				ul.nav-options li:hover {
+					max-height: 10%;
+					background-color: lightsalmon;
+				}
+		.body-container {
+			z-index: -1;
+			margin-top: 5%;
+			margin-left: 20%;
+			margin-right: 20%;
+			position: relative;
+			height: 100%;
+			background-color:white;
+		}
+			/*
+			.image-banner {
+				height: 10em;
+				max-width: 100%;
+			}
+			.image-banner .resized {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 	100%;
+				height: 100%;
+			}
+			*/
+			.title-container {
+				padding-top: 1em;
+				max-width: 100%;
+				font-family: serif;
+				font-style: italic;
+				font-weight: 100;
+				font-size: 2em;
+				transition: 0.4s;
+			}
+			.image-container {
+				max-width: 100%;
+				min-width: 100%;
+			}
+			.image-container .resized {		/* images in image-container */
+				display: block;
+				padding-top: 6%;
+				padding-bottom: 6%;
+				max-width: 75%;
+				max-height: 75%;
+			}
+			.video-container {
+				background-color: lightgrey;
+				padding: 1em;
+			}
+			.text-container {
+				max-width: 100%;
+			}
+			.text-container h2 {
+				font-family: verdana;
+				font-size: 1.75em;
+				max-width: 100%;
+			}
+			.text-container p {
+				font-family: georgia;
+				font-size: 1.25em;
+				max-width: 100%;
+			}
