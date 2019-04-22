@@ -12,5 +12,8 @@ to view website
 
 *If a subsite is unauthorized, you'll have to view it from the dropdown again*
 
+Helpful Github Solutions:
+https://stackoverflow.com/questions/34118404/what-i-can-do-to-resolve-1-commit-behind-master
+
 
 Test website under development for TEE organization
