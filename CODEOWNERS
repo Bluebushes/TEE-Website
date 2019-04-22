@@ -1,13 +1,17 @@
+#CODEOWNERS FILE
+#Any changes made to the master branch will be reviewed
+
+
 #Global
 *       @Breadan
 
 #Javascript
-.js     
+*.js     
 
 
 #CSS
-.css    
+*.css    
 
 
 #HTML
-.html   
+*.html   
